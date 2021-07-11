@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Survey Form</title>
+      <link rel="icon" href="images\images.jpg"  type="image/gif" sizes="16x16">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="surveyform.css">
+  </head>
+  <body>
+      <label>Name*</label>
+      <input type="text" name="first" id="first">
+      <input  type="text" name="last" id="last">
+      <br>
+      <br>
+      <label>Email*</label>
+      <input type="text" name="email" id="email">
+      <br>
+      <br>
+      <div class="container">
+          <label id="label">Your experience </label>
+          <br>
+          <span class="fa fa-star fa-3x checked"></span>
+          <span class="fa fa-star fa-3x checked"></span>
+          <span class="fa fa-star fa-3x checked"></span>
+          <span class="fa fa-star fa-3x"></span>
+          <span class="fa fa-star fa-3x"></span>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <label>Overall how would you rate oyur experience with us*</label>
+      <br>
+      <br>
+      <br>
+      <label><b>How SAtisfied Are you with*</b></label>
+      <div class="table">
+          <table border="2" style="width:100%">
+              <tr>
+                  <th> </th>
+              <th>Very Unsatisfied </th>
+              <th>Unsatisfied </th>
+              <th>Neutral </th>
+              <th>Satisfied </th>
+              <th>Very Satisfied </th>
+              </tr>
+              <tr>
+              <td>Purchase</td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            </tr>
+            <tr>
+                <td>Service</td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              </tr>
+              <tr>
+                <td>Company Overall</td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+                <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              </tr>
+          </table>
+      </div>
+      <br>
+      <br>
+      <br>
+      <label><b>How Likely arre you to*</b></label>
+      <div class="table2">
+        <table border="2" style="width:100%">
+            <tr>
+                <th> </th>
+            <th>Very Unlikely </th>
+            <th>Unlikely </th>
+            <th>Neutral </th>
+            <th>Likely </th>
+            <th>Very Likely </th>
+            </tr>
+            <tr>
+            <td>Buy From Us Again</td>
+            <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+          </tr>
+          <tr>
+              <td>Recomend Our Product To Others</td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            </tr>
+            <tr>
+              <td>Recommend Our Company To Others</td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+              <td><input type="radio" name="rating" value="yes" style="width: 100%"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="comments">
+        <label><b>Additional comments or Suggestions</b></label>
+        <br>
+        <textarea cols="50" name="commentText" rows="5" style="100%"></textarea>
+    </div>
+    <br>
+    <br>
+    <div class="button">
+        <input type="submit">
+    </div>
+  </body>
+  </html>

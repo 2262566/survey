@@ -1,0 +1,19 @@
+.container{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+  }
+  .checked{
+    color: orange;
+  }
+  .label
+  {
+      font-size: 4px;
+  }
+.table{
+  display: inline-block;
+}
+.table2{
+  display: inline-block;
+}
